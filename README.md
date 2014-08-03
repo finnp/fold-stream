@@ -1,4 +1,5 @@
 # fold-stream
+[![Build Status](https://travis-ci.org/finnp/fold-stream.svg?branch=master)](https://travis-ci.org/finnp/fold-stream)
 
 Allows you to iterate over the chunks of a stream and construct
 a new value that will be passed to a callback. It is similar to [].reduce.
@@ -21,7 +22,4 @@ var concat = fold(function (acc, curr) {
 process.stdin.pipe(concat(function (result) {
   console.log(result)
 }))
-```
-```js
-module.exports = require('fold-stream')(function (a, b) { return a + b }, '')
 ```
