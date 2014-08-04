@@ -1,5 +1,8 @@
 # fold-stream
-[![Build Status](https://travis-ci.org/finnp/fold-stream.svg?branch=master)](https://travis-ci.org/finnp/fold-stream)
+Mac/Linux | Windows
+----------| ---------
+[![Build Status Linux](http://img.shields.io/travis/finnp/fold-stream.svg)](https://travis-ci.org/finnp/fold-stream) | [![Build Status Windows](http://img.shields.io/appveyor/ci/finnp/fold-stream.svg)](https://ci.appveyor.com/project/finnp/fold-stream)
+
 
 Allows you to iterate over the chunks of a stream and construct
 a new value that will be passed to a callback. It is similar to [].reduce.
